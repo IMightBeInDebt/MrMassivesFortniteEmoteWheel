@@ -8,7 +8,11 @@ using System.Reflection;
 using UnityEngine;
 
 namespace FortniteEmoteWheel
-{
+{   
+    [BepInIncompatibility("org.hamburbur.menu")]
+    [BepInIncompatibility("org.deez.hamburbur.menu")]
+    [BepInIncompatibility("hansolo1000falcon.zlothy.hamburbur")]
+
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin
     {
